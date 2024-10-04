@@ -7,11 +7,21 @@
   @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
 }
 .header__top-menu-item {
-  @apply cursor-pointer py-1 hover:text-gray-800 relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-light-coffee lg:after:h-[2px] lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:ease-in-out lg:after:duration-300;
+  @apply cursor-pointer py-1 hover:text-gray-800 relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-coffee-200 lg:after:h-[2px] lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:ease-in-out lg:after:duration-300;
 }
 .nkd-icon {
   @apply w-5 h-5 inline-block;
 }
 .badge-circle {
   @apply text-xs text-center rounded-full px-1;
+}
+/* sub headline */
+.coffee-subheadline {
+  @apply flex justify-center items-center mb-24;
+}
+.coffee-sub-headline-deco-line {
+  @apply w-8 h-px bg-gray-400;
+}
+.coffee-sub-headline-deco-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px] text-center;
 }
