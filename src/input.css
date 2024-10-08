@@ -25,3 +25,6 @@
 .coffee-sub-headline-deco-label {
   @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px] text-center;
 }
+.nkd-button {
+  @apply text-center uppercase tracking-wider px-6 py-4 text-[13px] font-semibold cursor-pointer hover:bg-opacity-90;
+}
